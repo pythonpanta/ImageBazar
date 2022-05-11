@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,
+a {
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s ease-out;
+}
+i {
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.3s ease-out;
+}
+i:hover {
+  color: #fff6;
+}
+a:hover {
+  color: orange;
+}
+.bg {
+  background: rgb(255, 255, 250);
+}
+.navbar {
+  background: #000000 !important;
+  width: 100%;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+.black {
+  background: #000000;
+  color: #fff;
+}
+.mycard{
+    width: 290px;
+    height: 300px;
+}
+.image {
+width: 100%;
+height: 100%;
+  object-fit: cover;
+  box-shadow: 20px 20px 40px rgba(0,0,0,0.9);
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.footer {
+  color: #fff;
+  background: #000;
+  width: 100%;
+}
+#imgsrc{
+    width: 100%;
+    height: 100%;
+}
